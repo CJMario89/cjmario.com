@@ -1,0 +1,40 @@
+
+#footer{
+	background-color: black;
+	color: white;
+	width: 100vw;
+	height: 30vh;
+	text-align: center;
+	line-height: 10vh;
+	padding-top: 10px;
+	bottom: 0px;
+	margin: 0 auto;
+	border:none;
+}
+#link_mark{
+	width: 100vw;
+	height: 10vh;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	border:none;
+}
+.bi-facebook{
+	color: #c4c9ff;
+}
+.bi-instagram{
+	color: #ffd4e0;
+}
+
+#Copyright{	
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 10px !important;
+}
+#footer p{
+	margin: 0 auto !important;
+	padding: 0 !important;
+}
