@@ -1,0 +1,82 @@
+body {
+  font-family: "cwTeXFangSong", serif;
+  font-weight: 600;
+  background-color: black;
+}
+.letter_block_C{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	width: 100vw;
+}
+/*.crop{
+	height: 80vh;
+	width: 100vw;
+	overflow: hidden;
+	background-color: black;
+}*/
+.crop img{
+	top: 0px;
+	width: 100vw;
+	height: auto;
+}
+
+.block-w{
+	background-color: white;
+	color: black;
+	transition: width 0.5s, opacity 1s;
+	margin: 0 auto;
+}
+.block-b{
+	background-color: black;
+	color: white;
+	transition: width 0.5s, opacity 1s;
+	margin: 0 auto;
+}
+#letter_block{
+	width: 60vw;
+	text-align: center;
+	margin:auto;
+	display: inline-block;
+}
+div#letter_block p{
+	word-wrap: break-word;
+}
+.IV{
+	font-size: 12px;
+	margin:  0 auto;
+	margin-bottom: 1vh;
+}
+.about_me{
+	text-align: left;
+	vertical-align: middle;
+	width: 75vw;
+}
+.about_me:nth-child(1){
+	text-align: right;
+}
+img#myphoto{
+	width: 15vh;
+	border: none;
+	border-radius: 30%;
+}
+img#CJMario_mark{
+	width: 60vw;
+	height: auto;
+	margin: 0 auto;
+}
+#mark_container{
+	height: 80vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#about_me_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 80vh;
+}
